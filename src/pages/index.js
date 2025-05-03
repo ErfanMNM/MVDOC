@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Tìm hiểu về Machine Vision - 5 phút ⏱️
           </Link>
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Dự án mã nguồn mở cung cấp cho cộng đồng tất cả tài liệu liên quan đến Machine Vision ứng dụng trong công nghiệp. Cách xây dựng một ứng dụng Machine Vison, chọn thiết bị. Camera, Lens, Đèn chiếu sáng và các thuật toán xử lý ảnh">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
